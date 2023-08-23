@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>css übungen</title>
+    <style>
+      main img {
+        width: 240px;
+        box-shadow: aqua;
+        margin: 5px;
+      }
+      /*flex*/
+      main img {
+        width: 100%;
+      }
+      main div p {
+        width: 240px;
+        margin: 15px;
+      }
+      main div {
+        display: flex; /*bringt den inhaltzum fließen*/
+        justify-content: space-between; /*steurt den fluss auf der x-achse und y-achse*/
+        flex-wrap: wrap; /*brechen auf nächste zeile*/
+      }
+      footer {
+        display: flex; /*bringt den inhaltzum fließen*/
+        justify-content: center; /*steurt den fluss auf der x-achse */
+        flex-wrap: wrap; /*brechen auf nächste zeile*/
+      }
+      th {
+        background-color: aqua;
+      }
+      td {
+        background-color: blanchedalmond;
+      }
+      .copy {
+        display: flex; /*bringt den inhaltzum fließen*/
+        justify-content: center; /*steurt den fluss auf der x-achse und y-achse*/
+        flex-wrap: wrap; /*brechen auf nächste zeile*/
+      }
+    </style>
+  </head>
+  <!--inhalt-->
+  <body>
+    <!--kopfziel-->
+    <header>
+      <a href="index.html">starseite</a>
+      <a href="kontakt.html">kontakt</a>
+    </header>
+    <main>
+      <img
+        src="https://www.flashpack.com/wp-content/uploads/2018/10/Egypt-04-1120x620.jpg"
+      />
+      <div>
+        <p>
+          Weiterhin ist Ägypten als kultureller Vorreiter und somit
+          „Trendsetter“ der arabischsprachigen Welt bekannt
+        </p>
+        <p>
+          Die Kultur des Alten Ägypten war durchdrungen von der Verehrung eines
+          komplexen Pantheons tierköpfiger Götter und besaß eine starke
+          Ausrichtung auf das Leben nach dem Tod. Um den Verstorbenen im
+          Jenseits ein möglichst angenehmes Weiterleben zu ermöglichen, wurden
+          ihnen reiche Grabbeigaben mi… Mehr zu aegypten.de anzeigen
+        </p>
+        <p>
+          WebÄgypten beeinflusste kulturell zahlreiche andere Länder, wurde aber
+          auch, je nach Epoche, geprägt von Hellenismus, Christentum und Islam.
+          So umfangreich wie diese Chronik sind auch die kulturellen Schätze, …
+        </p>
+      </div>
+    </main>
+    <footer>
+      <table>
+        <tr>
+          <th>tel:</th>
+          <td>015436543577</td>
+        </tr>
+        <tr>
+          <th>fax:</th>
+          <td>015364647546</td>
+        </tr>
+        <tr>
+          <th>email:</th>
+          <td>adagmail.com</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>inhaber:</th>
+          <td>feggh rfh</td>
+        </tr>
+        <tr>
+          <th>adress:</th>
+          <td>walntino berlin</td>
+        </tr>
+        <tr>
+          <th>plaz,ort:</th>
+          <td>35535 schwetzingen</td>
+        </tr>
+      </table>
+    </footer>
+    <div class="copy">
+      copyright &copy; rania
+    </div>
+  </body>
+</html>

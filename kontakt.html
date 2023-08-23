@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>css übungen</title>
+    <style>
+      main form {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      main .feld {
+        margin: 10px;
+        display: flex; /*bringt den inhaltzum fließen*/
+        justify-content: space-between; /*steurt den fluss auf der x-achse und y-achse*/
+        flex-wrap: wrap; /*brechen auf nächste zeile*/
+      }
+    </style>
+  </head>
+  <!--inhalt-->
+  <body>
+    <!--kopfziel-->
+    <header>
+      <a href="index.html">starseite</a>
+      <a href="kontakt.html">kontakt</a>
+    </header>
+    <main>
+      <form>
+        <div class="feld">vorname:<input type="text" /></div>
+        <div class="feld">vorname:<input type="text" /></div>
+        <div class="feld">nachricht:<textarea></textarea></div>
+        <button>senden</button>
+      </form>
+    </main>
+    <br />
+  </body>
+</html>
